@@ -8,26 +8,18 @@ import FontGroupList from './components/FontGroupList';
 
 function App() {
   return (
-    <div>
-      <h1 className="text-3xl font-bold underline">
-        Hello world!
-      </h1>
-    </div>
-    
-    
-    // <FontProvider>
-    //   <div className="container mx-auto px-4 py-8 max-w-4xl">
-    //     <h1 className="text-2xl font-bold mb-6 text-center">Font Group Management System</h1>
+    <FontProvider>
+      <div className="container mx-auto px-4 py-8 max-w-4xl">
+        <h1 className="text-2xl font-bold mb-6 text-center">Font Group Management System</h1>
         
-    //     <div className="bg-gray-50 p-6 rounded-lg shadow-sm">
-    //       <FontUploader />
-    //       <FontList />
-    //       <FontGroupForm />
-    //       <FontGroupList />
-    //     </div>
-    //   </div>
-    // </FontProvider>
-    
+        <div className="bg-gray-50 p-6 rounded-lg shadow-sm">
+          <FontUploader />
+          <FontList />
+          <FontGroupForm />
+          <FontGroupList />
+        </div>
+      </div>
+    </FontProvider>
   );
 }
 
