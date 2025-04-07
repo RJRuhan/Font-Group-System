@@ -2,7 +2,7 @@
 
 Font Group System is a webapp designed to manage and organize font groups efficiently.
 
-This repo contains code for the frontend using ```react.js```. Backend code can be found in the following GitHub repository: [Backend](https://github.com/RJRuhan/Font-Group-System-Backend).
+This repo contains code for the frontend using ```react.js```.
 
 Task 1B : [Font Group System Backend](https://github.com/RJRuhan/Font-Group-System-Backend)
 
